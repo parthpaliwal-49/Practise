@@ -1,5 +1,3 @@
----
-
 ### 1. **Reading a CSV File**
 ```python
 df = pd.read_csv(file_path, sep='|', index_col=False, dtype={'col1': dtype},
@@ -265,6 +263,3 @@ unique_values = df['column'].unique()  # Get unique values in a column
 ```
 - **unique()**: Returns the unique values in a column.
   - **Use Case**: Useful for identifying all distinct values in a column, which is important for data cleaning, exploratory data analysis, and reducing redundancy in datasets.
-
----
-
